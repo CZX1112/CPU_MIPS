@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="imen_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1625887049">
+  <File Type="RDS-PROPCONSTRS" Name="imen_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="imen.tcl"/>
+  <File Type="RDS-RDS" Name="imen.vds"/>
+  <File Type="RDS-UTIL" Name="imen_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="imen_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="imen.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="imen_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="imen_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/imen">
+    <File Path="$PSRCDIR/sources_1/ip/imen/imen.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="imen"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/imen">
+    <File Path="$PSRCDIR/sources_1/ip/imen/imen.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="imen"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

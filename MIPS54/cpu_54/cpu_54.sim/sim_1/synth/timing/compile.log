@@ -1,0 +1,171 @@
+# do {cpu_tb_compile.do}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# ** Warning: (vlib-34) Library already exists at "msim".
+# 
+# ** Warning: (vlib-34) Library already exists at "msim/xil_defaultlib".
+# 
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 12:39:24 on Jul 10,2021
+# vlog -64 -incr -work xil_defaultlib cpu_tb_time_synth.v ../../../../cpu_54.srcs/sim_1/new/cpu_tb.v 
+# -- Skipping module RAM256X1S_UNIQ_BASE_
+# -- Skipping module RAM256X1S_HD1
+# -- Skipping module RAM256X1S_HD10
+# -- Skipping module RAM256X1S_HD100
+# -- Skipping module RAM256X1S_HD101
+# -- Skipping module RAM256X1S_HD102
+# -- Skipping module RAM256X1S_HD103
+# -- Skipping module RAM256X1S_HD104
+# -- Skipping module RAM256X1S_HD105
+# -- Skipping module RAM256X1S_HD106
+# -- Skipping module RAM256X1S_HD107
+# -- Skipping module RAM256X1S_HD108
+# -- Skipping module RAM256X1S_HD109
+# -- Skipping module RAM256X1S_HD11
+# -- Skipping module RAM256X1S_HD110
+# -- Skipping module RAM256X1S_HD111
+# -- Skipping module RAM256X1S_HD112
+# -- Skipping module RAM256X1S_HD113
+# -- Skipping module RAM256X1S_HD114
+# -- Skipping module RAM256X1S_HD115
+# -- Skipping module RAM256X1S_HD116
+# -- Skipping module RAM256X1S_HD117
+# -- Skipping module RAM256X1S_HD118
+# -- Skipping module RAM256X1S_HD119
+# -- Skipping module RAM256X1S_HD12
+# -- Skipping module RAM256X1S_HD120
+# -- Skipping module RAM256X1S_HD121
+# -- Skipping module RAM256X1S_HD122
+# -- Skipping module RAM256X1S_HD123
+# -- Skipping module RAM256X1S_HD124
+# -- Skipping module RAM256X1S_HD125
+# -- Skipping module RAM256X1S_HD126
+# -- Skipping module RAM256X1S_HD127
+# -- Skipping module RAM256X1S_HD13
+# -- Skipping module RAM256X1S_HD14
+# -- Skipping module RAM256X1S_HD15
+# -- Skipping module RAM256X1S_HD16
+# -- Skipping module RAM256X1S_HD17
+# -- Skipping module RAM256X1S_HD18
+# -- Skipping module RAM256X1S_HD19
+# -- Skipping module RAM256X1S_HD2
+# -- Skipping module RAM256X1S_HD20
+# -- Skipping module RAM256X1S_HD21
+# -- Skipping module RAM256X1S_HD22
+# -- Skipping module RAM256X1S_HD23
+# -- Skipping module RAM256X1S_HD24
+# -- Skipping module RAM256X1S_HD25
+# -- Skipping module RAM256X1S_HD26
+# -- Skipping module RAM256X1S_HD27
+# -- Skipping module RAM256X1S_HD28
+# -- Skipping module RAM256X1S_HD29
+# -- Skipping module RAM256X1S_HD3
+# -- Skipping module RAM256X1S_HD30
+# -- Skipping module RAM256X1S_HD31
+# -- Skipping module RAM256X1S_HD32
+# -- Skipping module RAM256X1S_HD33
+# -- Skipping module RAM256X1S_HD34
+# -- Skipping module RAM256X1S_HD35
+# -- Skipping module RAM256X1S_HD36
+# -- Skipping module RAM256X1S_HD37
+# -- Skipping module RAM256X1S_HD38
+# -- Skipping module RAM256X1S_HD39
+# -- Skipping module RAM256X1S_HD4
+# -- Skipping module RAM256X1S_HD40
+# -- Skipping module RAM256X1S_HD41
+# -- Skipping module RAM256X1S_HD42
+# -- Skipping module RAM256X1S_HD43
+# -- Skipping module RAM256X1S_HD44
+# -- Skipping module RAM256X1S_HD45
+# -- Skipping module RAM256X1S_HD46
+# -- Skipping module RAM256X1S_HD47
+# -- Skipping module RAM256X1S_HD48
+# -- Skipping module RAM256X1S_HD49
+# -- Skipping module RAM256X1S_HD5
+# -- Skipping module RAM256X1S_HD50
+# -- Skipping module RAM256X1S_HD51
+# -- Skipping module RAM256X1S_HD52
+# -- Skipping module RAM256X1S_HD53
+# -- Skipping module RAM256X1S_HD54
+# -- Skipping module RAM256X1S_HD55
+# -- Skipping module RAM256X1S_HD56
+# -- Skipping module RAM256X1S_HD57
+# -- Skipping module RAM256X1S_HD58
+# -- Skipping module RAM256X1S_HD59
+# -- Skipping module RAM256X1S_HD6
+# -- Skipping module RAM256X1S_HD60
+# -- Skipping module RAM256X1S_HD61
+# -- Skipping module RAM256X1S_HD62
+# -- Skipping module RAM256X1S_HD63
+# -- Skipping module RAM256X1S_HD64
+# -- Skipping module RAM256X1S_HD65
+# -- Skipping module RAM256X1S_HD66
+# -- Skipping module RAM256X1S_HD67
+# -- Skipping module RAM256X1S_HD68
+# -- Skipping module RAM256X1S_HD69
+# -- Skipping module RAM256X1S_HD7
+# -- Skipping module RAM256X1S_HD70
+# -- Skipping module RAM256X1S_HD71
+# -- Skipping module RAM256X1S_HD72
+# -- Skipping module RAM256X1S_HD73
+# -- Skipping module RAM256X1S_HD74
+# -- Skipping module RAM256X1S_HD75
+# -- Skipping module RAM256X1S_HD76
+# -- Skipping module RAM256X1S_HD77
+# -- Skipping module RAM256X1S_HD78
+# -- Skipping module RAM256X1S_HD79
+# -- Skipping module RAM256X1S_HD8
+# -- Skipping module RAM256X1S_HD80
+# -- Skipping module RAM256X1S_HD81
+# -- Skipping module RAM256X1S_HD82
+# -- Skipping module RAM256X1S_HD83
+# -- Skipping module RAM256X1S_HD84
+# -- Skipping module RAM256X1S_HD85
+# -- Skipping module RAM256X1S_HD86
+# -- Skipping module RAM256X1S_HD87
+# -- Skipping module RAM256X1S_HD88
+# -- Skipping module RAM256X1S_HD89
+# -- Skipping module RAM256X1S_HD9
+# -- Skipping module RAM256X1S_HD90
+# -- Skipping module RAM256X1S_HD91
+# -- Skipping module RAM256X1S_HD92
+# -- Skipping module RAM256X1S_HD93
+# -- Skipping module RAM256X1S_HD94
+# -- Skipping module RAM256X1S_HD95
+# -- Skipping module RAM256X1S_HD96
+# -- Skipping module RAM256X1S_HD97
+# -- Skipping module RAM256X1S_HD98
+# -- Skipping module RAM256X1S_HD99
+# -- Skipping module imen
+# -- Skipping module CP0
+# -- Skipping module DIV
+# -- Skipping module DIVU
+# -- Skipping module Dram
+# -- Skipping module MULT
+# -- Skipping module MUX
+# -- Skipping module MUX8
+# -- Skipping module MUX8_2
+# -- Skipping module MUX_0
+# -- Skipping module MUX_1
+# -- Skipping module MUX_3
+# -- Skipping module cpu
+# -- Skipping module multu
+# -- Skipping module pcreg
+# -- Skipping module pcreg_4
+# -- Skipping module pcreg_5
+# -- Skipping module regfile
+# -- Skipping module sccomp_dataflow
+# -- Skipping module imen_dist_mem_gen_v8_0_10
+# -- Skipping module glbl
+# -- Skipping module cpu_tb
+# 
+# Top level modules:
+# 	glbl
+# 	cpu_tb
+# End time: 12:39:25 on Jul 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

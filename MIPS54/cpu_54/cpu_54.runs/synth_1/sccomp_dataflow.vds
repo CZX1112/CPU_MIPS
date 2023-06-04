@@ -1,0 +1,840 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Jul 10 12:29:44 2021
+# Process ID: 6272
+# Current directory: D:/computer_composition/MIPS54/cpu_54/cpu_54.runs/synth_1
+# Command line: vivado.exe -log sccomp_dataflow.vds -mode batch -messageDb vivado.pb -notrace -source sccomp_dataflow.tcl
+# Log file: D:/computer_composition/MIPS54/cpu_54/cpu_54.runs/synth_1/sccomp_dataflow.vds
+# Journal file: D:/computer_composition/MIPS54/cpu_54/cpu_54.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sccomp_dataflow.tcl -notrace
+Command: synth_design -top sccomp_dataflow -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3336 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 305.566 ; gain = 98.969
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sccomp_dataflow' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/sccomp_dataflow.v:2]
+INFO: [Synth 8-638] synthesizing module 'imen' [D:/computer_composition/MIPS54/cpu_54/cpu_54.runs/synth_1/.Xil/Vivado-6272-DESKTOP-TPAPSK1/realtime/imen_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'imen' (1#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.runs/synth_1/.Xil/Vivado-6272-DESKTOP-TPAPSK1/realtime/imen_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'Dram' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/Dram.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Dram' (2#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/Dram.v:1]
+INFO: [Synth 8-638] synthesizing module 'cpu' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/cpu.v:1]
+INFO: [Synth 8-638] synthesizing module 'Ext5' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/Ext5.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Ext5' (3#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/Ext5.v:1]
+INFO: [Synth 8-638] synthesizing module 'Ext16' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/Ext16.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Ext16' (4#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/Ext16.v:1]
+INFO: [Synth 8-638] synthesizing module 'S_Ext16' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/S_Ext16.v:1]
+INFO: [Synth 8-256] done synthesizing module 'S_Ext16' (5#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/S_Ext16.v:1]
+INFO: [Synth 8-638] synthesizing module 'S_Ext18' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/S_Ext18.v:1]
+INFO: [Synth 8-256] done synthesizing module 'S_Ext18' (6#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/S_Ext18.v:1]
+INFO: [Synth 8-638] synthesizing module 'Ext8' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/Ext8.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Ext8' (7#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/Ext8.v:1]
+INFO: [Synth 8-638] synthesizing module 'S_Ext8' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/S_Ext8.v:1]
+INFO: [Synth 8-256] done synthesizing module 'S_Ext8' (8#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/S_Ext8.v:1]
+INFO: [Synth 8-638] synthesizing module 'CLZ' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CLZ.v:11]
+INFO: [Synth 8-256] done synthesizing module 'CLZ' (9#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CLZ.v:11]
+INFO: [Synth 8-638] synthesizing module 'MUX8' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MUX8.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MUX8' (10#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MUX8.v:1]
+INFO: [Synth 8-638] synthesizing module 'MUX' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MUX.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MUX' (11#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MUX.v:1]
+INFO: [Synth 8-638] synthesizing module 'MUX_5bit' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MUX_5bit.v:1]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmpt_reg' and it is trimmed from '32' to '5' bits. [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MUX_5bit.v:16]
+INFO: [Synth 8-256] done synthesizing module 'MUX_5bit' (12#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MUX_5bit.v:1]
+INFO: [Synth 8-638] synthesizing module 'MULT' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MULT' (13#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:1]
+INFO: [Synth 8-638] synthesizing module 'multu' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/multu.v:1]
+INFO: [Synth 8-256] done synthesizing module 'multu' (14#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/multu.v:1]
+INFO: [Synth 8-638] synthesizing module 'DIV' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIV.v:1]
+WARNING: [Synth 8-5788] Register reg_r_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIV.v:17]
+WARNING: [Synth 8-5788] Register r_sign_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIV.v:17]
+WARNING: [Synth 8-5788] Register reg_q_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIV.v:17]
+WARNING: [Synth 8-5788] Register reg_b_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIV.v:17]
+INFO: [Synth 8-256] done synthesizing module 'DIV' (15#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIV.v:1]
+INFO: [Synth 8-638] synthesizing module 'DIVU' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIVU.v:1]
+WARNING: [Synth 8-5788] Register reg_r_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIVU.v:16]
+WARNING: [Synth 8-5788] Register r_sign_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIVU.v:16]
+WARNING: [Synth 8-5788] Register reg_q_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIVU.v:18]
+WARNING: [Synth 8-5788] Register reg_b_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIVU.v:16]
+INFO: [Synth 8-256] done synthesizing module 'DIVU' (16#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/DIVU.v:1]
+INFO: [Synth 8-638] synthesizing module 'pcreg' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/pcreg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pcreg' (17#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/pcreg.v:1]
+INFO: [Synth 8-638] synthesizing module 'alu' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-226] default block is never used [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/alu.v:13]
+INFO: [Synth 8-256] done synthesizing module 'alu' (18#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-638] synthesizing module 'regfile' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/regfile.v:1]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (19#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/regfile.v:1]
+INFO: [Synth 8-638] synthesizing module 'CP0' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:1]
+WARNING: [Synth 8-5788] Register memory_reg[31] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[30] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[29] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[28] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[27] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[26] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[25] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[24] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[23] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[22] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[21] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[20] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[19] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[18] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[17] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[16] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[15] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[11] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[10] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[9] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[8] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[7] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[6] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[5] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[4] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[3] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[2] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[1] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+WARNING: [Synth 8-5788] Register memory_reg[0] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:66]
+INFO: [Synth 8-256] done synthesizing module 'CP0' (20#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/CP0.v:1]
+INFO: [Synth 8-256] done synthesizing module 'cpu' (21#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/cpu.v:1]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/seg7x16.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/seg7x16.v:86]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (22#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/seg7x16.v:21]
+INFO: [Synth 8-256] done synthesizing module 'sccomp_dataflow' (23#1) [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/sccomp_dataflow.v:2]
+WARNING: [Synth 8-3331] design CP0 has unconnected port mfc0
+WARNING: [Synth 8-3331] design multu has unconnected port clk
+WARNING: [Synth 8-3331] design MULT has unconnected port clk
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[31]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[30]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[29]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[28]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[27]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[26]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[25]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[24]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[23]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[22]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[21]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[20]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[19]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[18]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[17]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[16]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[15]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[14]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[13]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[12]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[11]
+WARNING: [Synth 8-3331] design Dram has unconnected port addr[10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 356.477 ; gain = 149.879
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 356.477 ; gain = 149.879
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'imen' instantiated as 'IM' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/sccomp_dataflow.v:24]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/computer_composition/MIPS54/cpu_54/cpu_54.runs/synth_1/.Xil/Vivado-6272-DESKTOP-TPAPSK1/dcp/imen_in_context.xdc] for cell 'IM'
+Finished Parsing XDC File [D:/computer_composition/MIPS54/cpu_54/cpu_54.runs/synth_1/.Xil/Vivado-6272-DESKTOP-TPAPSK1/dcp/imen_in_context.xdc] for cell 'IM'
+Parsing XDC File [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/constrs_1/new/icf.xdc]
+Finished Parsing XDC File [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/constrs_1/new/icf.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/constrs_1/new/icf.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sccomp_dataflow_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sccomp_dataflow_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 677.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 677.957 ; gain = 471.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 677.957 ; gain = 471.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 677.957 ; gain = 471.359
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:32]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/multu.v:26]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/multu.v:26]
+INFO: [Common 17-14] Message 'Synth 8-5818' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "negative" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "array_reg_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "CP0_cause1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "o_seg_r" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'zs_reg' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:29]
+WARNING: [Synth 8-327] inferring latch for variable 'bs_reg' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:28]
+WARNING: [Synth 8-327] inferring latch for variable 'b1_reg' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:28]
+WARNING: [Synth 8-327] inferring latch for variable 'as_reg' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'a1_reg' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/MULT.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'carry_reg' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/alu.v:67]
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [D:/computer_composition/MIPS54/cpu_54/cpu_54.srcs/sources_1/new/alu.v:104]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 677.957 ; gain = 471.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input     64 Bit       Adders := 2     
+	   2 Input     64 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 12    
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 8     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---RAMs : 
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   5 Input     64 Bit        Muxes := 31    
+	   2 Input     64 Bit        Muxes := 95    
+	   6 Input     64 Bit        Muxes := 31    
+	   2 Input     33 Bit        Muxes := 2     
+	  33 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 32    
+	   5 Input     32 Bit        Muxes := 1     
+	   6 Input     32 Bit        Muxes := 1     
+	  16 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 81    
+	   3 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sccomp_dataflow 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module Dram 
+Detailed RTL Component Info : 
++---RAMs : 
+	              32K Bit         RAMs := 1     
+Module CLZ 
+Detailed RTL Component Info : 
++---Muxes : 
+	  33 Input     32 Bit        Muxes := 1     
+Module MUX 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module MUX_5bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 3     
+Module MULT 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input     64 Bit       Adders := 1     
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      1 Bit       Adders := 1     
++---Muxes : 
+	   5 Input     64 Bit        Muxes := 31    
+	   2 Input     64 Bit        Muxes := 63    
+	   2 Input     32 Bit        Muxes := 6     
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module multu 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input     64 Bit       Adders := 1     
++---Muxes : 
+	   6 Input     64 Bit        Muxes := 31    
+	   2 Input     64 Bit        Muxes := 32    
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module DIV 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module DIVU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	  16 Input     32 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   6 Input      1 Bit        Muxes := 2     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module CP0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 31    
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+Module cpu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+Module seg7x16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 677.957 ; gain = 471.359
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design CP0 has unconnected port mfc0
+WARNING: [Synth 8-3331] design multu has unconnected port clk
+WARNING: [Synth 8-3331] design MULT has unconnected port clk
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 677.957 ; gain = 471.359
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 677.957 ; gain = 471.359
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------+--------------+-----------+----------------------+-------------------+
+|Module Name     | RTL Object   | Inference | Size (Depth x Width) | Primitives        | 
++----------------+--------------+-----------+----------------------+-------------------+
+|sccomp_dataflow | Dram/RAM_reg | Implied   | 1 K x 32             | RAM256X1S x 128   | 
++----------------+--------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\seg/o_seg_r_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (zs_reg) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (bs_reg) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[31]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[30]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[29]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[28]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[27]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[26]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[25]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[24]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[23]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[22]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[21]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[20]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[19]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[18]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[17]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[16]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[15]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[14]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[13]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[12]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[11]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[10]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[9]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[8]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[7]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[6]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[5]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[4]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[3]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[2]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[1]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (b1_reg[0]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (as_reg) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[31]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[30]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[29]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[28]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[27]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[26]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[25]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[24]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[23]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[22]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[21]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[20]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[19]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[18]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[17]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[16]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[15]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[14]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[13]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[12]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[11]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[10]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[9]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[8]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[7]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[6]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[5]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[4]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[3]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[2]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[1]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (a1_reg[0]) is unused and will be removed from module MULT.
+WARNING: [Synth 8-3332] Sequential element (carry_reg) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (overflow_reg) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (seg/o_seg_r_reg[7]) is unused and will be removed from module sccomp_dataflow.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 677.957 ; gain = 471.359
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 677.957 ; gain = 471.359
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:13 . Memory (MB): peak = 703.992 ; gain = 497.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 751.445 ; gain = 544.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:41 ; elapsed = 00:01:44 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:41 ; elapsed = 00:01:44 . Memory (MB): peak = 887.223 ; gain = 680.625
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:41 ; elapsed = 00:01:44 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:42 ; elapsed = 00:01:45 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:42 ; elapsed = 00:01:45 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |imen          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |imen      |     1|
+|2     |BUFG      |     1|
+|3     |CARRY4    |   393|
+|4     |LUT1      |   203|
+|5     |LUT2      |   611|
+|6     |LUT3      |  1122|
+|7     |LUT4      |   579|
+|8     |LUT5      |   607|
+|9     |LUT6      |  2677|
+|10    |MUXF7     |   388|
+|11    |RAM256X1S |   128|
+|12    |FDCE      |  1273|
+|13    |FDPE      |    14|
+|14    |FDRE      |  1154|
+|15    |IBUF      |     2|
+|16    |OBUF      |    16|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------+--------+------+
+|      |Instance     |Module  |Cells |
++------+-------------+--------+------+
+|1     |top          |        |  9200|
+|2     |  Dram       |Dram    |   226|
+|3     |  sccpu      |cpu     |  8773|
+|4     |    CP0      |CP0     |  1568|
+|5     |    MULT     |MULT    |   464|
+|6     |    MUX1     |MUX8    |   124|
+|7     |    MUX3     |MUX     |    20|
+|8     |    MUX6     |MUX_0   |    63|
+|9     |    MUX7     |MUX_1   |    34|
+|10    |    MUX8     |MUX8_2  |    54|
+|11    |    MUX9     |MUX_3   |    32|
+|12    |    cpu_ref  |regfile |  4459|
+|13    |    div      |DIV     |   379|
+|14    |    divu     |DIVU    |   303|
+|15    |    multu    |multu   |   951|
+|16    |    pcreg    |pcreg   |   173|
+|17    |    pcreg_HI |pcreg_4 |    39|
+|18    |    pcreg_LO |pcreg_5 |    38|
+|19    |  seg        |seg7x16 |   150|
++------+-------------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 887.223 ; gain = 680.625
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 80 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:32 ; elapsed = 00:01:37 . Memory (MB): peak = 887.223 ; gain = 329.809
+Synthesis Optimization Complete : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 887.223 ; gain = 680.625
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 523 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 2145 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+232 Infos, 144 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:44 ; elapsed = 00:01:45 . Memory (MB): peak = 887.223 ; gain = 656.273
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 887.223 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 10 12:31:35 2021...

@@ -1,0 +1,69 @@
+# do {cpu_tb_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap dist_mem_gen_v8_0_10 msim/dist_mem_gen_v8_0_10 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 11:11:30 on Jun 14,2021
+# vlog -64 -incr -work xil_defaultlib ../../../cpu_31.srcs/sources_1/new/pcreg.v ../../../cpu_31.srcs/sources_1/new/regfile.v ../../../cpu_31.srcs/sources_1/new/MUX_5bit.v ../../../cpu_31.srcs/sources_1/new/S_Ext18.v ../../../cpu_31.srcs/sources_1/new/S_Ext16.v ../../../cpu_31.srcs/sources_1/new/MUX.v ../../../cpu_31.srcs/sources_1/new/Ext5.v ../../../cpu_31.srcs/sources_1/new/Ext16.v ../../../cpu_31.srcs/sources_1/new/alu.v 
+# -- Compiling module pcreg
+# -- Compiling module regfile
+# -- Compiling module MUX_5bit
+# -- Compiling module S_Ext18
+# -- Compiling module S_Ext16
+# -- Compiling module MUX
+# -- Compiling module Ext5
+# -- Compiling module Ext16
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	pcreg
+# 	regfile
+# 	MUX_5bit
+# 	S_Ext18
+# 	S_Ext16
+# 	MUX
+# 	Ext5
+# 	Ext16
+# 	alu
+# End time: 11:11:30 on Jun 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 11:11:31 on Jun 14,2021
+# vlog -64 -incr -work dist_mem_gen_v8_0_10 ../../../cpu_31.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v 
+# -- Compiling module dist_mem_gen_v8_0_10
+# 
+# Top level modules:
+# 	dist_mem_gen_v8_0_10
+# End time: 11:11:31 on Jun 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 11:11:31 on Jun 14,2021
+# vlog -64 -incr -work xil_defaultlib ../../../cpu_31.srcs/sources_1/ip/imem/sim/imem.v ../../../cpu_31.srcs/sources_1/new/Dram.v ../../../cpu_31.srcs/sources_1/new/cpu.v ../../../cpu_31.srcs/sources_1/new/sccomp_dataflow.v ../../../cpu_31.srcs/sim_1/new/cpu_tb.v 
+# -- Compiling module imem
+# -- Compiling module Dram
+# -- Compiling module cpu
+# -- Compiling module sccomp_dataflow
+# -- Compiling module cpu_tb
+# 
+# Top level modules:
+# 	cpu_tb
+# End time: 11:11:31 on Jun 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 11:11:32 on Jun 14,2021
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 11:11:32 on Jun 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
